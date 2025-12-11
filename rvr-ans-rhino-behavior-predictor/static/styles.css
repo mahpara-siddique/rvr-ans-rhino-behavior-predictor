@@ -1,0 +1,113 @@
+/*
+ * Rhino Interaction Predictor (ANN Deployment) Custom Stylesheet
+ * This file enhances the Bootstrap 5 design for a professional look.
+ */
+
+/* --- General Body & Container Styling --- */
+body {
+    background-color: #f0f2f5; /* Light grey background for soft contrast */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px; /* Max width for large screens */
+}
+
+/* --- Header Styling --- */
+.header-section {
+    background: linear-gradient(135deg, #343a40, #1c1f24); /* Dark gradient for premium feel */
+    color: white;
+    padding: 30px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.header-section h1 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.rhino-icon {
+    font-size: 2.5rem;
+    color: #ffc107; /* Yellow/Gold accent */
+    margin-left: 10px;
+}
+
+/* --- Card Styling (Prediction and Scenario) --- */
+.card {
+    border: none; /* Remove default Bootstrap border */
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-3px); /* Subtle lift on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Prediction Card Specifics --- */
+.card-prediction {
+    background-color: #ffffff;
+    border-left: 6px solid #007bff; /* Primary blue stripe */
+}
+
+.card-prediction .card-title {
+    font-weight: 600;
+}
+
+.card-prediction h2 {
+    font-weight: 700;
+    color: #28a745; /* Success green for prominent results */
+}
+
+.card-prediction hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* --- Scenario Card Specifics --- */
+.card-scenario {
+    background-color: #ffffff;
+    border-top: 4px solid #ffc107; /* Warning yellow stripe */
+}
+
+.card-scenario .card-title {
+    color: #343a40;
+    font-weight: 600;
+}
+
+.card-scenario h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffc107;
+}
+
+/* --- Input Form Enhancements --- */
+.card-header {
+    background-color: #e9ecef !important;
+    border-radius: 12px 12px 0 0;
+    border-bottom: 1px solid #ced4da;
+}
+
+.form-control {
+    border-radius: 8px;
+    border-color: #ced4da;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25) !important;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
